@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowerShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type = "text/css" href="css/style.css">
+</head>
+<body>
+    <nav class = "nav">
+        <div class = "container">
+            <div class = "navigation__wrapper">
+                <div class = "logo">
+                    <img src = "img/logo/logo.png" alt = "logo">
+                </div>
+
+                <div id = "menu">
+                    <div id="menu-bar" onclick="menuOnClick()">
+                        <div id="bar1" class="bar"></div>
+                        <div id="bar2" class="bar"></div>
+                        <div id="bar3" class="bar"></div>
+                      </div>
+                      <div class="navbar" id="navbar">
+                        <ul>
+                            <li class = "navbar__item"><a href = "#">Catalog</a></li>
+                            <li class = "navbar__item"><a href = "#">About us</a></li>
+                            <li class = "navbar__item"><a href = "#">Collect bouquet</a></li>
+                            <li class = "navbar__item"><a href = "#">Contacts</a></li>
+                        </ul>
+                      </div> 
+                </div>
+                <div class="menu-bg" id="menu-bg"></div>
+
+                <div class = "nav__icons">
+                    <div class = "icon_lup">
+                        <a href="#">
+                            <img src="icons/navigation/lupa.png" alt="lup">
+                        </a>
+                    </div>
+                    <div class = "icon_basket">
+                        <a href="#">
+                            <img src="icons/navigation/basket.png" alt="basket">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <section class = "header">
+        <!-- <div class = "container"> -->
+            <div class = "header__wrapper">
+                <div class = "header__title">
+                    <h1 class = "header1">Bouquet of bush roses <br>
+                        "Long-awaited happiness"</h1>
+                    <p class = "header2">Gentle and sophisticated chic in a bouquet of roses <br> is a good choice for a loved one</p>
+                    <div class = "header__btn">
+                        <button class = "btn_basket">To basket</button>
+                        <button class = "btn_catalog">To catalog</button>
+                    </div>
+                </div>
+                <div class = "header__images">
+                    <div class = "elipse_1">
+                        <img src = "img/section_1/bouquet 1.png" alt = "Bouquet">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "subheader">
+        <div class = "container">
+            <div class = "subheader__items__wrapper">
+                <div class = "subheader__item item_1">
+                    <button class = "subheader__btn">Bouquets</button>
+                </div>
+                <div class = "subheader__item item_2">
+                    <button class = "subheader__btn">Fresh flowers</button>
+                </div>
+                <div class = "subheader__item item_3">
+                    <button class = "subheader__btn">"Own" bouquet</button>
+                </div>
+            </div>
+            <div class = "subheader__wrapper">
+                <div class = "subheader__descr">
+                    <h1>About us</h1>
+                    <p>There are so many flowers here! And garden, and field, and indoor in clay pots. Eyes widen from such abundance.</p>
+                    <p>A rich collection of indoor plants is presented here: cacti of various shapes and sizes, delicate violets strewn with flowers, asparagus, ficuses.</p>
+                </div>
+                <div class = "subheader__pic_1"><img src = "img/section_2/women.png" alt = "1"></div>
+                <div class = "subheader__pic_2"><img  src="img/section_2/abstract_background.png" alt="2"></div>
+            </div>
+        </div>
+    </section>
+    <section class = "features">
+        <div class = "container">
+            <div class = "features__title">Work for you</div>
+            <div class = "features__wrapper">
+                <div class = "features__item">
+                    <div class = "features__item__pic">
+                        <img src = "icons/section_3/constructor.png" alt = "1">
+                    </div>
+                    <div class = "features__item__paragraph">
+                        Designer of a unique bouquet
+                    </div>
+                </div>
+                <div class = "features__item">
+                    <div class = "features__item__pic">
+                        <img src = "icons/section_3/indoor.png" alt = "2">
+                    </div>
+                    <div class = "features__item__paragraph">
+                        Free delivery in the city up to 2 hours
+                    </div>
+                </div>
+                <div class = "features__item">
+                    <div class = "features__item__pic">
+                        <img src = "icons/section_3/delivery.png" alt = "3">
+                    </div>
+                    <div class = "features__item__paragraph">
+                        Presence of indoor plants
+                    </div>
+                </div>
+                <div class = "features__item">
+                    <div class = "features__item__pic_4">
+                        <img src = "icons/section_3/for_loved_ones.png" alt = "4">
+                    </div>
+                    <div class = "features__item__paragraph_4">
+                        Choosing flowers for loved ones, mothers and friends
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "catalog">
+        <div class = "container">
+            <div class = "catalog__title">
+                <h1 class = "header1">Catalog</h1>
+            </div>
+            <div class = "catalog__body">
+                <div class = "catalog__row__1">
+                    <div class = "catalog__item">
+                        <div class = "catalog__pic">
+                            <img src =  "img/section_4/bouquet_cart1 1.png" alt = "1">
+                        </div>
+                        <div class = "catalog__text">
+                            <p>Gentle freshness:<br>roses and lilies</p>
+                        </div>
+                        <div class = "catalog__price">
+                            <p>445 UAH</p>
+                        </div>
+                        <button class = "catalog__btn">To basket</button>
+                    </div>
+                    <div class = "catalog__item">
+                        <div class = "catalog__pic">
+                            <img src = "img/section_4/bouquet_cart2 1.png" alt = "2">
+                        </div>
+                        <div class = "catalog__text">
+                            <p>Sorbet:<br>chrysanthemums and roses</p>
+                        </div>
+                        <div class = "catalog__price">
+                            <p>445 UAH</p>
+                        </div>
+                        <button class = "catalog__btn">To basket</button>
+                    </div>
+                    <div class = "catalog__item">
+                        <div class = "catalog__pic">
+                            <img src = "img/section_4/bouquet_cart3 1.png" alt = "3">
+                        </div>
+                        <div class = "catalog__text">
+                            <p>Yellow Song:<br>sunflowers and solidago</p>
+                        </div>
+                        <div class = "catalog__price">
+                            <p>445 UAH</p>
+                        </div>
+                        <button class = "catalog__btn">To basket</button>
+                    </div>
+
+                </div>
+                <div class = "catalog__row__2">
+                    <div class = "catalog__item">
+                        <div class = "catalog__pic">
+                            <img src = "img/section_4/bouquet_cart4 1.png" alt = "4">
+                        </div>
+                        <div class = "catalog__text">
+                            <p>Peach Nectar:<br>Lilies and Roses</p>
+                        </div>
+                        <div class = "catalog__price">
+                            <p>445 UAH</p>
+                        </div>
+                        <button class = "catalog__btn">To basket</button>
+                    </div>
+                    <div class = "catalog__item">
+                        <div class = "catalog__pic">
+                            <img src = "img/section_4/bouquet_cart5 1.png" alt = "5">
+                        </div>
+                        <div class = "catalog__text">
+                            <p>Aurora:<br>lilies and roses</p>
+                        </div>
+                        <div class = "catalog__price">
+                            <p>445 UAH</p>
+                        </div>
+                        <button class = "catalog__btn">To basket</button>
+                    </div>
+                    <div class = "catalog__item">
+                        <div class = "catalog__pic">
+                            <img src = "img/section_4/bouquet_cart6 1 (1).png" alt = "6">
+                        </div>
+                        <div class = "catalog__text">
+                            <p>Classic love:<br>red roses</p>
+                        </div>
+                        <div class = "catalog__price">
+                            <p>445 UAH</p>
+                        </div>
+                        <button class = "catalog__btn">To basket</button>
+                    </div>
+                </div>
+            </div>
+            <div class = "catalog__pagination">
+                <a href="#">
+                    <img src="icons/section_catalog/Arrow 1.png" alt="1">
+                </a>
+                <img src="icons/section_catalog/Ellipse_pink.png" alt="2">
+                <img src="icons/section_catalog/Ellipse_grey.png" alt="3">
+                <img src="icons/section_catalog/Ellipse_grey.png" alt="4">
+                <img src="icons/section_catalog/Ellipse_grey.png" alt="5">
+                <img src="icons/section_catalog/Ellipse_grey.png" alt="6">
+                <a href="#">
+                    <img src="icons/section_catalog/Arrow 2.png" alt="7">
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class = "feedback">  
+            <div class = "container">
+                <div class = "row feedback_row_title">
+                    <div class = "col-2 feedback_header">Feedbacks</div>
+                    <div class = "col-10 hidden"></div>
+                </div>
+                <div class = "row feedback1_row">
+                    <div class="col-2 feedback1_photo">
+                        <img src="img/section_feedback/reviews-photo 2.png" alt="1">
+                    </div>
+                    <div class="col-8 feedback1_descr">
+                        "I am not a specialist in flowers, but my wife really liked the original spring bouquet, put together with a positive attitude. I leave my positive review of the store on the street. Volunteer battalions."
+                        <br>
+                        <br>
+                        <span>Володимир 19.06.22</span>
+                    </div>
+                </div>
+                <div class = "row feedback2_row">
+                        <div class="col-2 feedback2_photo">
+                            <img src="img/section_feedback/reviews-photo 1.png" alt="2">
+                        </div>
+                        <div class="col-8 feedback2_descr">
+                            "I ordered flowers during non-working hours (in the evening), but an employee contacted me very promptly and promised to deliver the bouquet in the morning at the appointed time. And so it happened, the flowers were delivered with precision second by second, fresh and beautiful. I recommend it.”
+                            <br>
+                            <br>
+                            <span>Людмила 03.04.22</span>
+                        </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-3 hidden"></div>
+                    <div class = "col-3">
+                        <div class ="feedback__pagination">
+                        <a href="#">
+                            <img src="icons/section_catalog/Arrow 1.png" alt="1">
+                        </a>
+                        <img src="icons/section_catalog/Ellipse_pink.png" alt="2">
+                        <img src="icons/section_catalog/Ellipse_grey.png" alt="3">
+                        <img src="icons/section_catalog/Ellipse_grey.png" alt="4">
+                        <img src="icons/section_catalog/Ellipse_grey.png" alt="5">
+                        <img src="icons/section_catalog/Ellipse_grey.png" alt="6">
+                        <a href="#">
+                            <img src="icons/section_catalog/Arrow 2.png" alt="7">
+                        </a>        
+                    </div>
+                    </div>
+                </div>
+
+            <form class = "feedback__form">
+                <label for = "userData">Add feedback</label>
+                <br>
+                <br>
+                <input type = "text" name = "userData" placeholder = "Your name" id="userData" required>
+                <br>
+                <br>
+                <textarea name="message" placeholder = "Your feedback"id="message"></textarea>
+               <!--  <input type = "textarea" name = "userData" placeholder = "Your feedback" class = "input__feedback" id="userData" required> -->
+                <br>
+                <br>
+                <input type="submit" name="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <section class = "delivery">
+        <div class = "container">
+            <div class = "delivery__title">Delivery and payments</div>
+                <div class = "delivery__steps__wrapper1">
+                    <div class = "delivery__step">
+                        <div class = "delivery__step_elipse">
+                            <span>1</span></div>
+                        <div class = "delivery__step_descr">You order a bouquet through the catalog</div>
+                    </div>
+                    <div class = "delivery__step">
+                        <div class = "delivery__step_elipse"><span>2</span></div>
+                        <div class = "delivery__step_descr">You pay for the product using a VISA or MC card, or Privat24</div>
+                    </div>
+                    <div class = "delivery__step">
+                        <div class = "delivery__step_elipse"><span>3</span></div>
+                        <div class = "delivery__step_descr">Our managers will call you back if you need to clarify something</div>
+                    </div>
+                </div>
+                <div class = "delivery__steps__wrapper2">
+                    <div class = "delivery__step">
+                        <div class = "delivery__step_elipse"><span>4</span></div>
+                        <div class = "delivery__step_descr">We send a photo of the assembled bouquet to coordinate everything</div>
+                    </div>
+                    <div class = "delivery__step">
+                        <div class = "delivery__step_elipse"><span>5</span></div>
+                        <div class = "delivery__step_descr">We deliver the bouquet to the recipient within 2 hours</div>
+                    </div>
+                    <div class = "delivery__step">
+                        <div class = "delivery__step_elipse"><span>6</span></div>
+                        <div class = "delivery__step_descr">We will notify you with a call or message about the delivery of the bouquet</div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <footer class = "footer">
+        <div class = "container">
+            <div class = "footer__header">
+                <div class = "footer__logo">
+                    <img src = "img/footer/logo.png" alt = "1">
+                </div>
+                <div class = "footer__wrapper__elements">
+                    <div class = "footer__wrapper__title1">
+                        <div class = "footer__title">
+                            <h2>Contacts</h2></div>
+                        <ul class = "footer__details footer__contacts">
+                            <li> <a href = "#">(095) 000 00 00</a></li>
+                            <li><a href = "#">(097) 000 00 00</a></li>
+                            <li><a href = "#">We work all days</a></li>
+                        </ul>
+                    </div>
+                    <div class = "footer__wrapper__title2">
+                        <div class = "footer__title"><h2>Information</h2></div>
+                        <ul class = "footer__details footer__contacts">
+                            <li><a href = "#">About us</a></li>
+                            <li><a href = "#">Hot sale</a></li>
+                            <li><a href = "#">Feedbacks</a></li>
+                            <li><a href = "#">Delivery and payments</a></li>
+                        </ul>
+                    </div>
+                    <div class = "footer__wrapper__title3">
+                        <div class = "footer__title"><h2>Catalog</h2></div>
+                        <ul class = "footer__details footer__contacts">
+                            <li><a href = "#">Collect your bouquet</a></li>
+                            <li><a href = "#">Fresh flowers</a></li>
+                            <li><a href = "#">Houseplants</a></li>
+                        </ul>
+                    </div>
+                    <div class = "footer__wrapper__connect">
+                        <form class = "footer__form">
+                            <input type = "email" name = "subscribe" placeholder = "Enter your email" class = "footer__text_subscribe" id="subscribe" required>
+                            <button class = "footer__btn_subscribe">Subscribe</button>
+                        </form>
+                        <div class = "footer__socialmedia">
+                            <a href="#"><img src="icons/section_footer/instagram.png" alt="1"></a>
+                            <a href="#"><img src="icons/section_footer/facebook.png" alt="2"></a>
+                            <a href="#"> <img src="icons/section_footer/viber.png" alt="3"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "copyright">Copyright Ⓒ 2022</div>
+                
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+
+//1
+
+/* $('.burger').click (function(){
+  $(this).toggleClass('open');
+}); */
+
+//2
+ /* const nav = document.getElementById("burger");
+
+function toggleMibileMenu() {
+nav.classList.toggle("navbar");
+} */
+
+//3
+
+function menuOnClick() {
+  document.getElementById("menu-bar").classList.toggle("change");
+  document.getElementById("navbar").classList.toggle("change");
+  document.getElementById("menu-bg").classList.toggle("change-bg");
+}
+
+
+
+
+    </script>
+</body>
+</html>
